@@ -1,0 +1,65 @@
+.control {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.control_modal {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin: 5px auto;
+    position: relative;
+    z-index: 1;
+}
+
+.control_modal button {
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    border: none;
+    background-color: #282c34;
+    color: #FFF;
+    font-size: 0.9em;
+    padding: .5em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.control_modal button:hover {
+    background-color: #282c34;
+    color: #e62b2b;
+}
+
+.control_div_emp {
+    margin-right: 2em;
+    margin-bottom: 1.5em;
+    padding: 2em;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.control_list {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1.2em;
+    position: relative;
+    z-index: 2;
+}

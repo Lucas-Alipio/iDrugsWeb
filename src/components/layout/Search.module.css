@@ -1,0 +1,8 @@
+.search {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}

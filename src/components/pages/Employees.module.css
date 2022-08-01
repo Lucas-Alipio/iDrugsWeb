@@ -1,0 +1,44 @@
+.control {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5px;
+    position: relative;
+    z-index: 2;
+}
+
+.control_div_emp {
+    margin-right: 2em;
+    margin-bottom: 1.5em;
+    padding: 2em;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+}
+
+.control_list {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 2;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 1.2em;
+    position: relative;
+    z-index: 2;
+}
+
+.control_add {
+    padding: 1em;
+    height: 700px;
+    border: 1px solid #000;
+    margin: 1em auto auto;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    position: relative;
+    z-index: 2;
+}

@@ -1,0 +1,55 @@
+.control {
+    display: flex;
+    width: 100%;
+    margin: 10px;
+    position: relative;
+    z-index: 2;
+}
+
+.control img {
+    width: 200px;
+    display: block;
+    margin: 5px auto;
+}
+
+.control span {
+    font-weight: bold;
+}
+
+.prod_actions {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0px;
+    position: relative;
+    z-index: 1;
+}
+
+.prod_actions a,
+.prod_actions button {
+    text-decoration: none;
+    border: none;
+    background-color: #FFF;
+    color: #222;
+    font-size: 0.9em;
+    padding: .5em 1em;
+    margin-right: 1em;
+    cursor: pointer;
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.2s;
+}
+
+.prod_actions svg {
+    margin-right: 0.5em;
+}
+
+.prod_actions a:hover{
+    background-color: #282c34;
+    color: #FFF;
+}
+.prod_actions button:hover {
+    background-color: #e62b2b;
+    color: #FFF;
+}
