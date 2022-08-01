@@ -20,7 +20,7 @@ function Department() {
 
   //GET all employees
   useEffect(() => {
-    fetch(`https://idrugs-app.herokuapp.com/idrugs-app/pharma/product/type/${id}`, {
+    fetch(`https://idrugsapi.herokuapp.com/idrugs-api/product/type/${id}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -39,7 +39,7 @@ function Department() {
   const [typeName, setTypeName] = useState("")
 
   useEffect(() => {
-    fetch(`https://idrugs-app.herokuapp.com/idrugs-app/pharma/type/${id}`, {
+    fetch(`https://idrugsapi.herokuapp.com/idrugs-api/type/${id}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

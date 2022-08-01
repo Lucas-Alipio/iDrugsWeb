@@ -16,7 +16,7 @@ function ProdForm({ btnText, handleSubmit, empData, close }) {
   //departments
   const [type, setType] = useState([])
   useEffect(() => {
-    fetch(`https://idrugs-app.herokuapp.com/idrugs-app/pharma/type`, {
+    fetch(`https://idrugsapi.herokuapp.com/idrugs-api/type`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',

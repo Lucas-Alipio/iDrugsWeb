@@ -29,7 +29,7 @@ function Departments() {
   //GET all employees
   useEffect(() => {
 
-    fetch('http://localhost:8081/idrugs-api/type', {
+    fetch('https://idrugsapi.herokuapp.com/idrugs-api/type', {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -47,7 +47,7 @@ function Departments() {
   //CREATE - method POST
   function createDepartment(dep) {
     console.log(dep.department)
-    fetch("http://192.168.0.108:8081/idrugs-api/type", {
+    fetch("https://idrugsapi.herokuapp.com/idrugs-api/type", {
       method: 'POST',
       headers: {
         "Content-type": "application/json; charset=UTF-8"

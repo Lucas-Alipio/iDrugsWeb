@@ -26,7 +26,7 @@ function Products() {
 	//GET all employees
 	useEffect(() => {
 
-		fetch('https://idrugs-app.herokuapp.com/idrugs-app/pharma/product', {
+		fetch('https://idrugsapi.herokuapp.com/idrugs-api/product', {
 			method: 'GET',
 			headers: {
 				'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ function Products() {
 
 	//CREATE - method POST
 	function createProduct(prod) {
-		fetch("https://idrugs-app.herokuapp.com/idrugs-app/pharma/product", {
+		fetch("https://idrugsapi.herokuapp.com/idrugs-api/product", {
 			method: 'POST',
 			headers: {
 				"Content-type": "application/json; charset=UTF-8"

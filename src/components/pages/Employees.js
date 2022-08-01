@@ -26,7 +26,7 @@ function Employees() {
     //GET all employees
     useEffect(() => {
 
-        fetch('https://idrugs-app.herokuapp.com/idrugs-app/pharma/user', {
+        fetch('https://idrugsapi.herokuapp.com/idrugs-api/user', {
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ function Employees() {
 
     //CREATE - method POST
     function create(emp) {
-        fetch("https://idrugs-app.herokuapp.com/idrugs-app/pharma/user", {
+        fetch("https://idrugsapi.herokuapp.com/idrugs-api/user", {
             method: 'POST',
             headers: {
                 "Content-type": "application/json; charset=UTF-8"
@@ -59,7 +59,7 @@ function Employees() {
 
     //UPDATE (PUT) Employee
     function updateEmployee(emp) {
-        fetch("https://idrugs-app.herokuapp.com/idrugs-app/pharma/user", {
+        fetch("https://idrugsapi.herokuapp.com/idrugs-api/user", {
             method: 'PUT',
             headers: {
                 "Content-type": "application/json; charset=UTF-8"
@@ -80,7 +80,7 @@ function Employees() {
 
     //DELETE Employee
     function removeEmployee(id) {
-        fetch("https://idrugs-app.herokuapp.com/idrugs-app/pharma/user", {
+        fetch("https://idrugsapi.herokuapp.com/idrugs-api/user", {
             method: 'DELETE',
             headers: {
                 "Content-type": "application/json; charset=UTF-8"

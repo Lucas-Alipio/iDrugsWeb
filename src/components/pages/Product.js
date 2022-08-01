@@ -27,7 +27,7 @@ function Product() {
 
   //GET product with 'name'
   useEffect(() => {
-    fetch(`https://idrugs-app.herokuapp.com/idrugs-app/pharma/product/${id}`, {
+    fetch(`https://idrugsapi.herokuapp.com/idrugs-api/product/${id}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
@@ -44,7 +44,7 @@ function Product() {
 
   //UPDATE (PUT) Product
   function updateProduct(prod) {
-    fetch("https://idrugs-app.herokuapp.com/idrugs-app/pharma/product", {
+    fetch("https://idrugsapi.herokuapp.com/idrugs-api/product", {
       method: 'PUT',
       headers: {
         "Content-type": "application/json; charset=UTF-8"
@@ -60,7 +60,7 @@ function Product() {
 
   //DELETE Employee
   function removeProduct(id) {
-    fetch("https://idrugs-app.herokuapp.com/idrugs-app/pharma/product", {
+    fetch("https://idrugsapi.herokuapp.com/idrugs-api/product", {
       method: 'DELETE',
       headers: {
         "Content-type": "application/json; charset=UTF-8"
@@ -111,7 +111,7 @@ function Product() {
   const [typeName, setTypeName] = useState("")
 
   useEffect(() => {
-    fetch(`https://idrugs-app.herokuapp.com/idrugs-app/pharma/type/${product.type}`, {
+    fetch(`https://idrugsapi.herokuapp.com/idrugs-api/type/${product.type}`, {
       method: 'GET',
       headers: {
         'Content-Type': 'application/json',
